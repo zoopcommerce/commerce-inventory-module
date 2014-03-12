@@ -29,6 +29,10 @@
         },
         {
             "type": "vcs",
+            "url":  "git@github.com:zoopcommerce/commerce-order-module.git"
+        },
+        {
+            "type": "vcs",
             "url":  "git@github.com:zoopcommerce/commerce-product-module.git"
         },
         {
@@ -44,7 +48,8 @@
         "php"                                       : ">=5.4",
         "doctrine/annotations"                      : "dev-master#a11349d39d85bef75a71bd69bd604ac4fb993f03 as dev-master",
         "zoopcommerce/commerce-common-module"       : "dev-master",
-        "zoopcommerce/commerce-product-module"      : "dev-master",
+        "zoopcommerce/commerce-order-module"        : "dev-master",
+        "zoopcommerce/commerce-product-module"        : "dev-master",
         "zoopcommerce/commerce-store-module"        : "dev-master",
         "zoopcommerce/shard"                        : "~4.0",
         "doctrine/doctrine-mongo-odm-module"        : "1.0.x-dev",
